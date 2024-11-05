@@ -23,7 +23,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
-<style>
+<style scoped lang="scss">
 .main-wrapper {
   width: 100%;
   display: flex;
@@ -31,7 +31,9 @@ import HelloWorld from './components/HelloWorld.vue'
   align-items: center;
   justify-content: center;
 }
+</style>
 
+<style>
 .flex-center {
   display: flex;
   align-items: center;
